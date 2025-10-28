@@ -139,9 +139,9 @@ const SegmentModal = ({ onClose }) => {
                             className="w-full border border-gray-300 rounded-lg px-3 py-2 mb-2"
                         >
                             <option value="">Select Schema</option>
-                            {availableOptions.map((opt) => (
-                                <option key={opt.value} value={opt.value}>
-                                    {opt.label}
+                            {availableOptions.map((val) => (
+                                <option key={val.value} value={val.value}>
+                                    {val.label}
                                 </option>
                             ))}
                         </select>
